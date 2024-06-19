@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.build.json",
+
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@project/common/*": ["packages/common/src/*"],
+      "@project/*": ["packages/*/src"]
+    },
+    "noEmit": true
+  }
+}
